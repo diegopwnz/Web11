@@ -1,6 +1,3 @@
-head {
-}
-
 h1 {
   text-align: center;
 }
@@ -24,7 +21,19 @@ div {
 .red {
   color: red;
 }
-.qwerty {
+
+ul {
+  list-style-type: none;
+  color: rgb(80, 155, 154);
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  padding: 0px;
+  margin: 5px 5px 5px 5px;
+}
+
+li {
+  margin-right: 8px;
   background: #dddadad2;
-  display: inline-flex;
+  display: in;
 }
