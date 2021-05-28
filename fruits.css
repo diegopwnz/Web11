@@ -1,0 +1,19 @@
+.Phone {
+  background-color: #ed9eae;
+  padding: 50px;
+  margin: 50px;
+  margin-top: 20px;
+  margin-right: 65%;
+  color: white;
+}
+
+.Apple {
+  background-color: #c66376;
+  padding: 2%;
+  list-style-position: inside;
+}
+
+ol li::marker {
+  background-color: #c66376;
+  color: white;
+}
