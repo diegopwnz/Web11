@@ -1,0 +1,30 @@
+body {
+  max-width: 1000px;
+}
+h1 {
+  text-align: center;
+}
+
+.image {
+  display: inline-block;
+  width: 160px;
+  height: 200px;
+  border: solid;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+}
+
+div {
+  margin: 5px 5px;
+  max-width: 200px;
+  border-radius: 30px;
+}
+
+p {
+  text-align: center;
+}
