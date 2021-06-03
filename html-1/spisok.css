@@ -1,0 +1,39 @@
+.year {
+  list-style-type: none;
+}
+.year-item::before {
+  content: "➤";
+}
+.year-item::after {
+  content: "asdasd";
+}
+
+.winter-mounth {
+  list-style-type: none;
+}
+.winter-mounth::before {
+  content: "❄️";
+}
+
+.spring-mounth {
+  list-style-type: none;
+}
+
+.spring-mounth::before {
+  content: "🌄";
+}
+
+.summer-mounth {
+  list-style-type: none;
+}
+
+.summer-mounth::before {
+  content: "☀️";
+}
+
+.autumn-mounth {
+  list-style-type: none;
+}
+.autumn-mounth::before {
+  content: "🍁";
+}

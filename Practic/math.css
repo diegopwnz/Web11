@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+.formuls {
+  text-align: center;
+  font-weight: bold;
+}
+
+.content {
+  background-color: red;
+  padding: 4px;
+}
+
+.color_red {
+  color: red;
+}
