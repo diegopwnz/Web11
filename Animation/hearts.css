@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  filter: grayscale(100%);
+}
+
+.image:hover {
+  filter: grayscale(0);
+  transform: scale(2.5);
+  transition: filter 5s, transform 5s;
+}
