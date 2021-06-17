@@ -1,0 +1,73 @@
+.foot {
+  background-color: #2a4f6e;
+  height: 220px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  list-style-type: none;
+  margin-top: 40px;
+  display: block;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.img {
+  list-style-type: none;
+  display: flex;
+  margin-top: 60px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.face {
+  background-image: url(./img/fb_gray.png);
+  height: 32px;
+  width: 32px;
+}
+
+.face:hover {
+  background-image: url(./img/fb.png);
+  height: 32px;
+  width: 32px;
+}
+
+.insta {
+  background-image: url(./img/insta_gray.png);
+  height: 32px;
+  width: 32px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.insta:hover {
+  background-image: url(./img/insta.png);
+  height: 32px;
+  width: 32px;
+}
+.tube {
+  background-image: url(./img/youtube_gray.png);
+  height: 32px;
+  width: 32px;
+}
+
+.tube:hover {
+  background-image: url(./img/youtube.png);
+  height: 32px;
+  width: 32px;
+}
+
+.Copyright {
+  text-align: center;
+}
