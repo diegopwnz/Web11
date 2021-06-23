@@ -1,10 +1,11 @@
 .Phone {
   background-color: #ed9eae;
-  padding: 50px;
+  padding: 25px;
   margin: 50px;
   margin-top: 20px;
   margin-right: 65%;
   color: white;
+  margin-left: 25px;
 }
 
 .Apple {
@@ -13,7 +14,15 @@
   list-style-position: inside;
 }
 
-ol li::marker {
-  background-color: #c66376;
+li::marker {
   color: white;
+}
+
+span {
+  background-color: #9e354a;
+  padding: 2%;
+}
+
+li {
+  margin-block: 3%;
 }
