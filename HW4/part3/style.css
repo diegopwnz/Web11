@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: rgb(87, 95, 95);
+  width: 900px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.text {
+  width: 50%;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.img {
+  display: flex;
+  height: 300px;
+  transition: 1s;
+  background-image: url(./qweqweqwe.png);
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.wrapper:hover .text {
+  opacity: 0.3;
+}
+
+.wrapper:hover .img {
+  transform: scale(1.2);
+  opacity: 0.3;
+}
+
+.test {
+  width: 450px;
+  overflow: hidden;
+}
