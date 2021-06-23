@@ -1,0 +1,23 @@
+ul {
+  list-style-type: none;
+  display: contents;
+}
+.Active {
+  background-color: #e2e2e2;
+}
+
+.Type1 {
+  background-color: #a5ccda;
+}
+
+.Type2 {
+  background-color: #acd7e5;
+}
+
+li {
+  padding: 0.5em;
+}
+
+img {
+  margin-right: 2%;
+}
