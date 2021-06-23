@@ -1,0 +1,54 @@
+.BLOCK {
+  width: 250px;
+  height: 100px;
+  background-color: #808080;
+  color: white;
+}
+
+.EDIT::before {
+  content: url(png/edit.png);
+  margin-right: 15px;
+  position: relative;
+  left: 2%;
+  top: 15%;
+}
+
+.FAVORITES::before {
+  content: url(png/favorites.png);
+  margin-right: 15px;
+  position: relative;
+  left: 2%;
+  top: 15%;
+}
+
+.HISTORY::before {
+  content: url(png/history.png);
+  margin-right: 15px;
+  position: relative;
+  left: 2%;
+  top: 15%;
+}
+
+.SECURITY::before {
+  content: url(png/security.png);
+  margin-right: 15px;
+  position: relative;
+  left: 2%;
+  top: 15%;
+}
+
+.SETTINGS::before {
+  content: url(png/settings.png);
+  margin-right: 15px;
+  position: relative;
+  left: 2%;
+  top: 15%;
+}
+
+ul {
+  padding: 0px 0px;
+}
+
+.SECURITY:hover {
+  background-color: #5e5e5e;
+}
