@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.head {
+  border-bottom: solid rgb(130, 124, 124) 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.head-item p {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.head .img {
+  height: 48px;
+  width: 48px;
+}
+
+.wrapper {
+  margin: 24px 24px;
+  display: flex;
+}
+
+.nav {
+  height: 50px;
+  width: 130px;
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+.nav:first-child {
+  margin: 0;
+}
+
+.nav .img {
+  height: 32px;
+  width: 32px;
+}
+.nav p {
+  padding-left: 12px;
+}
+
+.nav:hover {
+  background-color: #f3e3e3;
+}
+
+.main {
+  width: 100%;
+}
+.message {
+  border-bottom: solid rgb(130, 124, 124) 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-color {
+  color: rgb(130, 124, 124);
+}
+
+.message .img {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.message p {
+  width: 100%;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.clip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
+
+.clip .img {
+  margin: 0;
+}
+
+.clip-text {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.main-text {
+  width: 50%;
+}
