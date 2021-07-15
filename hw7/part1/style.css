@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #add8e6;
+  font-size: 32px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+}
+
+.column {
+  width: 33.333%;
+  padding: 35px;
+  margin: 0;
+}
+.card {
+  margin-bottom: 35px;
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+.head-text {
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  background-color: white;
+}
+.text {
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  word-spacing: 20px;
+}

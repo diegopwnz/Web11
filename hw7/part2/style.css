@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.chat {
+  padding: 15px;
+  margin: 10px;
+}
+
+.red {
+  background-color: #ffb6c1;
+  border-radius: 15px 15px 15px 0;
+}
+
+.blue {
+  background-color: #add8e6;
+  border-radius: 15px 15px 0 15px;
+}
+
+.anie {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.anie-logo {
+  display: flex;
+  align-items: center;
+  padding-top: 7.5px;
+  padding-bottom: 45px;
+}
+
+.jack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.jack-logo {
+  display: flex;
+  align-items: center;
+  padding-top: 53px;
+}
