@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "EB Garamond", serif;
+}
+body {
+  max-width: 1800px;
+}
+
+/* Шапка */
+
+.head {
+  width: 100%;
+  border-bottom: solid 1px rgb(87, 87, 87);
+}
+.logo-name {
+  width: 20%;
+  align-items: center;
+  text-align: center;
+}
+
+.head-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-container {
+  width: 60%;
+}
+.head-menu {
+  margin: 0;
+  padding: 0%;
+}
+
+.head-item {
+  list-style-type: none;
+  display: inline-block;
+  padding: 24px;
+}
+.head-main-img {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.head-img {
+  display: block;
+  width: 24px;
+}
+
+/* Мэйн контент */
+
+main {
+  width: 100%;
+}
+
+.container-hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: solid 1px rgb(87, 87, 87);
+}
+
+.container-text {
+  width: 50%;
+  margin: 0 48px;
+}
+.container-img {
+  font-size: 0;
+  width: 50%;
+}
+.cont-img {
+  width: 100%;
+}
+
+.btn {
+  margin-top: 24px;
+  width: 82px;
+  height: 36px;
+}
+
+.containter-article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px rgb(87, 87, 87);
+}
+
+.article-img {
+  width: 33.333%;
+  font-size: 0;
+}
+
+.article-text {
+  width: 66.667%;
+  margin: 0 48px;
+}
+
+.art-img {
+  width: 100%;
+}
